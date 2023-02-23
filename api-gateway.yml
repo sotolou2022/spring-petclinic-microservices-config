@@ -1,12 +1,12 @@
-zuul:
-  prefix: /api
-  ignoredServices: '*'
-  routes:
-    vets-service: /vet/**
-    visits-service: /visit/**
-    customers-service: /customer/**
-    api-gateway: /gateway/**
-    demo-service: /demo/**
+# zuul:
+#   prefix: /api
+#   ignoredServices: '*'
+#   routes:
+#     vets-service: /vet/**
+#     visits-service: /visit/**
+#     customers-service: /customer/**
+#     api-gateway: /gateway/**
+#     demo-service: /demo/**
     
 
 server:
