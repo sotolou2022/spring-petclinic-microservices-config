@@ -17,9 +17,9 @@ spring:
   cloud:
     config:
       # Allow the microservices to override the remote properties with their own System properties or config file
-      allow-override: true
+      allow-override: false
       # Override configuration with any local property source
-      override-none: true
+      override-none: false
   jpa:
     open-in-view: false
     hibernate:
